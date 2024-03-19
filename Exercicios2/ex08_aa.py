@@ -24,5 +24,14 @@ Valor de esgoto	R$ 321,90
 Total	R$ 643,80
 '''
 
-leitura = int(input("Digite o valor da leitura de consumo de água da residência em metros cúbicos: "))
-valor = 0
+consumo = int(input("Informe o consumo de água em metros cúbicos: "))
+faixa10 = consumo % 10
+resto = consumo // 10
+consumoTotal = faixa10 * 5.5
+print(consumoTotal)
+faixa20 = (consumo - faixa10) % 10
+print(faixa20)
+consumoTotal += (faixa20 * 0.85)
+print(consumoTotal)
+faixa50 = (consumo - faixa10 - faixa20) // 30
+print(faixa50)
