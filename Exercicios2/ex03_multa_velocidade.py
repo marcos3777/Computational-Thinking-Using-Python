@@ -8,3 +8,4 @@ vel = vel // 80
 multa = vel % 80
 
 print(f"Vc estava {vel} a cima de 80, sua multa vai ser: {multa}$ reais.")
+

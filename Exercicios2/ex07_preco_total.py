@@ -12,7 +12,6 @@ Código do Produto	Preço unitário		Percentual de imposto
 O programa devera exibir a saída com o valor pago por cada produto, valor do imposto, imposto total e valor 
 total a ser pago.
 '''
-codigo = int(input("Digite o código do produto: "))
 quantidade = int(input("Digite a quantidade comprada do produto 1001 : "))
 quantidade2 = int(input("Digite a quantidade comprada do produto 1324 : "))
 quantidade3 = int(input("Digite a quantidade comprada do produto 6548 : "))
