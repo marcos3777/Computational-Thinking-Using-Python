@@ -3,60 +3,36 @@ Desafios 5:
 
 2. Escreva um programa que solicite a altura e peso e calcule o IMC.
 
-3. Escreva um programa que pergunte a velocidade do carro de um usuário. Caso ultrapasse 80km/h, exiba uma mensagem dizendo que o usuário foi multado. Nesse caso, exiba o valor da multa, cobrando R$ 5 por km/h acima de 80 km/h.
+3. Escreva um programa que pergunte a velocidade do carro de um usuï¿½rio. Caso ultrapasse 80km/h, exiba uma mensagem dizendo que o usuï¿½rio foi multado. Nesse caso, exiba o valor da multa, cobrando R$ 5 por km/h acima de 80 km/h.
 
 
-4. Escrever um algoritmo que lê o número de identificação, as 3 notas obtidas por um aluno nas 3 verificações e a média dos exercícios (ME) que fazem parte da avaliação. Calcular a média de aproveitamento (MA), usando a fórmula:
+4. Escrever um algoritmo que lï¿½ o nï¿½mero de identificaï¿½ï¿½o, as 3 notas obtidas por um aluno nas 3 verificaï¿½ï¿½es e a mï¿½dia dos exercï¿½cios (ME) que fazem parte da avaliaï¿½ï¿½o. Calcular a mï¿½dia de aproveitamento (MA), usando a fï¿½rmula:
 
 MA = (Nota1 + Nota2 x 2 + Nota3 x 3 + ME )/7
 
-5. Uma empresa concederá um aumento de salário aos seus funcionários, variável de acordo com o cargo, conforme a tabela abaixo. Faça um algoritmo que leia o salário e calcule o novo salário, mostrando todas as variações para os cargos e exiba uma observação, “verifique seu novo salário de acordo com o seu cargo”. Se o cargo do funcionário não estiver na tabela, ele deverá, então, receber 40% de aumento. Mostre o salário antigo, os novos salários e a diferença. 
+5. Uma empresa concederï¿½ um aumento de salï¿½rio aos seus funcionï¿½rios, variï¿½vel de acordo com o cargo, conforme a tabela abaixo. Faï¿½a um algoritmo que leia o salï¿½rio e calcule o novo salï¿½rio, mostrando todas as variaï¿½ï¿½es para os cargos e exiba uma observaï¿½ï¿½o, ï¿½verifique seu novo salï¿½rio de acordo com o seu cargoï¿½. Se o cargo do funcionï¿½rio nï¿½o estiver na tabela, ele deverï¿½, entï¿½o, receber 40% de aumento. Mostre o salï¿½rio antigo, os novos salï¿½rios e a diferenï¿½a. 
 
-Código	Cargo		Percentual
+Cï¿½digo	Cargo		Percentual
 101		Gerente	10%
 102		Engenheiro	20%
-103		Técnico	30%
+103		Tï¿½cnico	30%
 
 
-6. Escreva um programa que irá solicitar a quantidade de pessoas de uma residência e a quantidade de minutos em média que as pessoas se demoram no banho. Sabendo que o chuveiro é de 2400 W, o programa deverá calcular e exibir o consumo da energia elétrica, em quilowatt-hora no final do mês (30 dias) e o valor em reais gasto, dado que o valor do KWh é de R$ 0,40.
+6. Escreva um programa que irï¿½ solicitar a quantidade de pessoas de uma residï¿½ncia e a quantidade de minutos em mï¿½dia que as pessoas se demoram no banho. Sabendo que o chuveiro ï¿½ de 2400 W, o programa deverï¿½ calcular e exibir o consumo da energia elï¿½trica, em quilowatt-hora no final do mï¿½s (30 dias) e o valor em reais gasto, dado que o valor do KWh ï¿½ de R$ 0,40.
 
-7. Um vendedor necessita de um programa que calcule o preço total devido por um cliente. O algoritmo deve receber o código de um produto e a quantidade comprada e calcular o preço total, acrescendo o imposto que varia o seu percentual de acordo com o produto, usando a tabela abaixo:
+7. Um vendedor necessita de um programa que calcule o preï¿½o total devido por um cliente. O algoritmo deve receber o cï¿½digo de um produto e a quantidade comprada e calcular o preï¿½o total, acrescendo o imposto que varia o seu percentual de acordo com o produto, usando a tabela abaixo:
 
-Código do Produto	Preço unitário		Percentual de imposto
+Cï¿½digo do Produto	Preï¿½o unitï¿½rio		Percentual de imposto
 1001			5,32			18%
 1324			6,45			18%
 6548			2,37			6%
 0987			5,32			6%
 7623			6,45			12%
 
-O programa devera exibir a saída com o valor pago por cada produto, valor do imposto, imposto total e valor total a ser pago.
+O programa devera exibir a saï¿½da com o valor pago por cada produto, valor do imposto, imposto total e valor total a ser pago.
 
 
-8. Escrever um algoritmo que lê valor da leitura de consumo de água da residência expresso em metros cúbicos. O Programa deverá calcular o valor final da conta de água e esgoto de acordo com a seguinte tabela de consumo:
-
-
-
-Faixa	Faixas de consumo metros cúbicos	Tarifa por metro cúbico
-A	Até 10	R$ 5,50
-B	Entre 11 e 20	R$ 0,85
-C	Entre 21 e 50	R$ 2,13
-D	Acima de 50	R$ 2,36
-
-O valor cobrado do esgoto é o mesmo da água.
-Segue um exemplo de saída formatada que o programa deverá exibir:
-
-Leitura: 134 metros cúbicos gastos.
-
-Faixa	Faixas de consumo metros cúbicos	Consumo na Tarifa
-A	Até 10	R$ 22,00
-B	Entre 11 e 20	R$ 0,00
-C	Entre 21 e 50	R$ 63,90
-D	Acima de 50	R$ 236,00
-		
-Valor de água	R$ 321,90
-Valor de esgoto	R$ 321,90
-Total	R$ 643,80
 	
-9. Escrever um programa que lê a hora de início e hora de término de um jogo, ambas subdivididas em dois valores distintos: horas e minutos. Calcular e escrever a duração do jogo, também em horas e minutos, considerando que o tempo máximo de duração de um jogo é de 24 horas e que o jogo pode iniciar em um dia e terminar no dia seguinte.
+8. Escrever um programa que lï¿½ a hora de inï¿½cio e hora de tï¿½rmino de um jogo, ambas subdivididas em dois valores distintos: horas e minutos. Calcular e escrever a duraï¿½ï¿½o do jogo, tambï¿½m em horas e minutos, considerando que o tempo mï¿½ximo de duraï¿½ï¿½o de um jogo ï¿½ de 24 horas e que o jogo pode iniciar em um dia e terminar no dia seguinte.
 
 
