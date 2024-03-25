@@ -1,0 +1,19 @@
+1. Faça um Programa que peça dois números e imprima a soma.
+
+2. Faça um Programa que peça a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius.
+
+C = 5 * ((F-32) / 9).
+
+3. Faça um programa que solicite o salário do usuário e calcule o novo salário com o aumento de 18%. O programa deverá exibir o valor do aumento e o novo salário.
+
+4. Escrever um algoritmo que lê as 4 notas obtidas por um aluno. Calcular a média ponderada de acordo com a seguinte fórmula:
+
+(Nota1 + Nota2 x 2 + Nota3 x 3 + Nota4 x 4) / 10
+
+5. Faça um programa que solicite dois números para o usuário, sendo o primeiro a base e segundo o expoente. Calcule o primeiro número elevado ao segundo número e exiba o valor na tela.
+
+6. Faça um programa que solicite a idade do usuário e exiba a quantidade de dias que o usuário já viveu.
+
+7. Faça um programa que solicite a distância percorrida em uma determinada viagem e a quantidade de combustível gasto neste percurso. Calcule o consumo do veículo em km/l.
+
+8. Faça um programa que solicite o preço de uma mercadoria e o percentual de desconto. Exiba o valor do desconto e o preço a pagar.
