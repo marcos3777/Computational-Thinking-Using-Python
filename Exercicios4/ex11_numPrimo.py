@@ -9,10 +9,10 @@ if num == 0 or num == 1:
 elif num == 2:
     print("É primo")
 else:
-    for i in range(2, num):
+    for i in range(2, num,-3):
         if num % i == 0:
-            print("Não é primo")
-            break
+            print(num,"Não é primo")
+            
     else:
-        print("É primo")
+        print(num,"É primo")
 
