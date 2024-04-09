@@ -2,17 +2,32 @@
 #Para fazer essa verificação, calcule o resto da divisão do número por 2 e depois por todos os números
 # ímpares até o número lido. Se o resto de uma dessas divisões for igual a zero, o número não é primo.
 # Observe que 0 e 1 não são primos e que 2 é o único número primo que é par.
+#12.	Modifique o programa anterior de forma a ler um número n. Imprima os n primeiros números primos.
 
-num = int(input("Digite um número: "))
-if num == 0 or num == 1:
-    print("Não é primo")
-elif num == 2:
-    print("É primo")
-else:
-    for i in range(2, num,-3):
-        if num % i == 0:
-            print(num,"Não é primo")
-            
-    else:
-        print(num,"É primo")
+
+
+#12.	Modifique o programa anterior de forma a ler um número n. Imprima os n primeiros números primos.
+
+def numPrimo(n):
+    if n == 0 or n == 1:
+        return False
+    for i in range(2, n):
+        if n % i == 0:
+            return False
+    return True
+
+def main():
+    n = int(input("Digite um número: "))
+    for i in range(1, n+1):
+        if numPrimo(i):
+            print(i)
+
+main()
+
+
+
+
+
+
+
 
