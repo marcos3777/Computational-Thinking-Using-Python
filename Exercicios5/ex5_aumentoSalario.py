@@ -10,7 +10,6 @@ ano = 1995
 aumento = 0.015
 anoAtual = 2024
 while ano < anoAtual:
-    ano == 1996
     salario = salario + (salario * aumento)
     aumento = aumento * 2
    
@@ -20,3 +19,19 @@ print(f"Aumento: {aumento:.2f}")
 
 print(f"Salário atual: {salario:.2f}")
 print("Fim do programa")
+
+#Após concluir isto, altere o programa 
+#permitindo que o usuário digite o salário inicial do funcionário.
+
+salario = float(input("Digite o salário inicial: "))
+ano = 1995
+aumento = 0.015
+anoAtual = 2024
+while ano < anoAtual:
+    salario = salario + (salario * aumento)
+    aumento = aumento * 2
+    ano = ano + 1
+print(f"Salário atual: {salario:.2f}")
+print(f"Aumento: {aumento:.2f}")
+print("Fim do programa")
+    
