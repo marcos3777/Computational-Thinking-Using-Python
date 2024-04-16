@@ -4,6 +4,8 @@ for i in range (1, 101):
     #exe2
 
 for i in range (50, 101):
-    print(i)
+    print(i, end=' ')
+
+print("\nFim do programa")
 
    
